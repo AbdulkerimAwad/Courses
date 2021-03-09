@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function sayhello()
+        {
+            alert("hello html")
+        }
+    </script>
+    <style>
+        fieldset {background: #EFEFEF; padding: 10px; border: 1px solid #CCC; margin-bottom: 10px;}
+        legend {background: #FFF; border: 1px solid #CCC; padding: 5px;}
+    </style>
+</head>
+<body>
+    <form name="register">
+        <fieldset>
+            <legend>personal information</legend>
+            <label>username</label>
+            <input type="text" name="username" maxlength="10">
+            <br>
+            <label>password</label>
+            <input type="password" name="password"><br>
+            <label>your message</label><br>
+            <textarea cols="60" rows="6" readonly>this note you cant edit</textarea>
+            <br>
+            <br>
+            <label>upload your cv</label>
+            <input type="file">
+            <br>
+            <input type="checkbox">
+            <label>remeber me</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>your favourite</legend>
+            <label>choose your browser</label>
+            <br>
+            <input type="radio" name="browser" value="chrome">google chrome <br>
+            <input type="radio" name="browser" value="firefox">mozella firefox <br>
+            <input type="radio" name="browser" value="opera">opera
+            <br>
+            <label>choose your mobile</label>
+            <br>
+            <input type="radio" name="mobile" value="samsung"> iphone <br>
+            <input type="radio" name="mobile" value="samsung">samsung <br>
+            <input type="radio" name="mobile" value="nokia">nokia
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>send option</legend>
+            <select name="time">
+                <optgroup label="near time">
+                    <option value="1">now</option>
+                    <option value="2">tomorrow</option>
+                    <option value="3">after a week</option>
+                </optgroup>
+                <optgroup label="far time" disabled>
+                    <option value="4">year</option>
+                    <option value="5">10 year</option>
+                    <option value="6">20 year</option>
+                </optgroup>
+            </select>
+            <input type="hidden" value="testing">
+            <br>
+            <input type="button" name="say hello" value="say hello" onclick="sayhello()">
+            <input type="submit" value="signup">
+            <input type="reset" value="restore default">
+        </fieldset>
+        <!-- <input type="image" src="http://placehold.it/100/100" alt="submit"> -->
+    </form>    
+</body>
+</html>
+
+
+
+<!-- Name 
+    اسم الفورم
+ -->
+
+<!-- Action 
+    اسم الصفحة التي سترسل اليها معلومات التسجيل
+ -->
+
+<!-- <Label> 
+    لاضافة تسمية للعنصر
+ -->
+
+<!-- Maxlength 
+    لتحديد عدد الحروف داخل ال انبوت
+ -->
+
+<!-- samename 
+    لاختيار واحد من عدة ريديو
+ -->
+
+<!-- rows 
+    عدد الصفوف الظاهرة من التيكست ايريا
+ -->
+
+<!-- COLS 
+    لاختيار طول الصف في التيكست ايريا
+ -->
+
+<!-- READONLY 
+    لمنع تعديل الكتابة داخل التيكست ايريا
+ -->
+
+<!-- DiSABELED 
+    للاقفال السيليكت على خيار معين
+ -->
+
+<!-- SIZE 
+    لاختيار عدد الخيارات الظاهرة
+ -->
+
+<!-- MULTIPLE 
+    لاختيار اكثر من خيار من السيليكت
+ -->
+
+<!-- DiSABELED/OPTION 
+    لمنع اختيار خيار معين
+ -->
+
+<!-- SELECTED/OPTION
+    لاختيار خيار بشكل اوتوماتيك
+ -->
+
+<!-- VALUE/OPTION 
+    لارسال قيمة الاختيار للسيرفير
+ -->
+
+<!-- <OPTGROUP> 
+    لتنسيق قائمة السيلليكت
+ -->
+

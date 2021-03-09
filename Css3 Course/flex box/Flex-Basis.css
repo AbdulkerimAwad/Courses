@@ -1,0 +1,42 @@
+/* 
+    flex-basis:
+    يستخدم في تحديد ويدث لعنصر محدد فيما يقوم الفليكس بتحدي ويدث حسب طول الكلام
+
+    shorhand:
+    flex: 0 1 auto
+    flex: flex-groe | flex-shrink | flex-basis
+*/
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+}
+
+.container div {
+    color: #FFF;
+    padding: 10px;
+    max-height: 100px;
+}
+
+.container .one {
+    background-color: #080;
+
+}
+
+.container .two {
+    background-color: #F00;
+    flex-basis: 100px;
+}
+.container .three {
+    background-color: #0F0;
+    flex-basis: 200px;
+}
+
+.container .four {
+    background-color: #00F;
+
+}
+

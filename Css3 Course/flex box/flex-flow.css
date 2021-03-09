@@ -1,0 +1,33 @@
+/* 
+    flex-flow: flex-direction , flex-wrap
+*/
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap
+}
+
+.container div {
+    color: #FFF;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+
+.container div:first-of-type {
+    background-color: #080;
+    
+}
+
+.container div:nth-of-type(2) {
+    background-color: #F00;
+
+}
+.container div:last-of-type {
+    background-color: #00F;
+
+}

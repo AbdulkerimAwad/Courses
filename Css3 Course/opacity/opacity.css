@@ -1,0 +1,18 @@
+/* 
+    opacity: هي شفافية العنصر
+    - يقبل القيم من الصفر الذي هو شفاف تماما الى الواحد الظاهر تماما
+
+    لاخفاء عنصر مع المحافظة على مكانه
+    - visibility: hidden
+    -opacity: 0
+
+    لاخفاء عنصر مع عدم المحافظة على مكانه
+    - display: none
+*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #EEE;
+    opacity: .3;
+}

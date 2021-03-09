@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript => Date - Intro</title>
+  </head>
+  <body>
+    <script>
+
+        /*
+            new Date(); // Print Current Date & Time
+            new Date(Milliseconds[5000 = 5 Seconds]); // Print Milliseconds From UTC 1 Jan 1970 00:00:00
+            new Date(DateString[Month Day, Year Hour:Minutes:Seconds]) // Can Add Date String
+            new Date(Year, Month, Day[Hour, Minutes, Seconds, Milliseconds])
+        */
+
+        // Normal Date & Time
+
+        var theDate = new Date();
+
+        console.log(theDate);
+
+        // Date With Milliseconds
+
+        var theDate = new Date(10000); // 10 Milliseconds
+
+        console.log(theDate);
+
+        // Date String
+
+        var theDate = new Date("October 25, 1982 12:20:50");
+
+        console.log(theDate);
+
+        // Date Separated
+
+        var theDate = new Date(1982, 10, 25, 11, 20, 30, 25);
+
+        console.log(theDate);
+
+    </script>
+  </body>
+</html>

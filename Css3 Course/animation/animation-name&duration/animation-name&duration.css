@@ -1,0 +1,62 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 
+    keyframes: 
+            animation name => raquired
+            from( 0% )   to( 100% ) OR 0%, 10%, 20%, 50%, 100%
+            Css Attribute
+*/
+
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 5s;
+}
+
+@keyframes moving {
+    0% {
+        top: 10px;
+    }
+
+    20% {
+        top: 90px;
+    }
+
+    30% {
+        top: 60px;
+    }
+
+    40% {
+        top: 110px;
+    }
+
+    50% {
+        top: 80px;
+    }
+
+    60% {
+        top: 150px;
+    }
+
+    70% {
+        top: 120px;
+    }
+
+    80% {
+        top: 190px;
+    }
+
+    90% {
+        top: 160px;
+    }
+
+    100% {
+        top: 220px;
+    }
+}

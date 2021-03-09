@@ -1,0 +1,31 @@
+div {
+    padding: 10px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+
+    /* box-shadow: horizontal shadow* | vertical shadow* | blur | spread | color | inset,outset  */
+    -webkit-box-shadow: -5px -5px 8px #F00;
+    -moz-box-shadow: -5px -5px 8px #F00;
+    -o-box-shadow: -5px -5px 8px #F00;
+    box-shadow: -5px -5px 8px #F00
+}
+
+
+
+/* 
+    -def: none
+    -horizontal: افقي
+    -vertical: عمودي
+    -blur: ضبابية الظل
+    -spread: انتشار الظل
+    -inset: ظل داخلي
+*/
+
+/* 
+    يقبل القيم السلبية وينتقل الى الجهة المقابلة
+
+    لانشاءأكتر من ظل نستخدم الفاصلة ,
+*/

@@ -1,0 +1,27 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 
+    multi colunm shorthand: width | count
+*/
+
+div {
+    border: 1px solid #CCC;
+    padding: 10px;
+    -webkit-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+    -webkit-column-rule: 1px solid #BBB;
+    column-rule: 1px solid #BBB;
+    -webkit-column-width: auto;
+    column-width: auto;
+}
+
+div h1 {
+    -webkit-column-span: all;
+    column-span: all;
+}

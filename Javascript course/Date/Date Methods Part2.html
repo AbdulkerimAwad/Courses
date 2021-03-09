@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript => Date - Methods Part 2</title>
+  </head>
+  <body>
+    <script>
+
+        /*
+            setDate(Day[Requires]) // Day of The Month 1-31
+            setFullYear(Year[Req], Month[Opt], Day[Opt]) // Set The Full Year
+            setHours(Hours[Req], Minutes[Opt], Seconds[Opt], Milli[Opt]) // Set Hours 0-23
+            setMinutes(Minutes[Req], Seconds[Opt], Milli[Opt]) // Set Minutes 0-59
+            setSeconds(Seconds[Req], Milli[Opt]) // Set Seconds 0-59
+            setMilliseconds() // Set Milliseconds 0-999
+            setMonth(Month[Req], Day[Opt])
+        */
+
+        // Set Date
+
+        var theDate = new Date();
+
+        theDate.setDate(31);
+
+        console.log(theDate);
+
+        // Set Full Year
+
+        var theDate = new Date();
+
+        theDate.setFullYear(2016, 3, 31);
+
+        console.log(theDate);
+
+        // Set Hours
+
+        var theDate = new Date();
+
+        theDate.setHours(14);
+
+        console.log(theDate);
+
+        // Set Minutes
+
+        var theDate = new Date();
+
+        theDate.setMinutes();
+
+        console.log(theDate);
+
+        // Set Seconds
+
+        var theDate = new Date();
+
+        theDate.setSeconds();
+
+        console.log(theDate);
+
+        // Set Milliseconds
+
+        var theDate = new Date();
+
+        theDate.setMilliseconds(600000); // 10 Minutes
+
+        console.log(theDate);
+
+        // Set Month
+
+        var theDate = new Date();
+
+        theDate.setMonth(-1);
+
+        console.log(theDate);
+
+    </script>
+  </body>
+</html>

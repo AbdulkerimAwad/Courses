@@ -1,0 +1,38 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: arial, tahoma;
+}
+
+body > div {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin: 5px;
+}
+
+.not :not(div) {
+    color: #F00;
+}
+
+.not h1 {
+    color: #000;
+}
+
+.first-child .var div:first-child {
+    color: #F00;
+}
+
+.first-child .yok div:first-child {
+    color: #F00;
+}
+
+.first-of-type .first div:first-of-type {
+    color: #F00;
+}
+
+.first-of-type .last div:last-of-type {
+    color: #F00;
+}

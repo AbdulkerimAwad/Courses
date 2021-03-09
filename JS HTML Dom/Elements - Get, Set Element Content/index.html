@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements - Get, Set Element Content</title>
+</head>
+<body>
+    <div id="parent">
+        hello <span>hello from span</span>
+    </div>
+
+    <script>
+        /*
+            * innerText // Not Standard
+            * outerText // Not Standard
+            * innerHTML
+            * outerHTML
+            * textContent
+
+            // Get Html Content
+            Element.innerHTML // Don't Use
+
+            // Get Text Content
+            Element.textContent // The Best
+
+        */
+
+
+        var myDiv = document.getElementById("parent");
+
+        console.log(myDiv.innerHTML);
+
+        console.log(myDiv.textContent);
+    </script>
+</body>
+</html>

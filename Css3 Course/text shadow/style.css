@@ -1,0 +1,13 @@
+/* 
+    text-shadow: horizontal shadow | vertical shadow | blur-radius | color
+
+    def: none
+*/
+
+h1 {
+    text-shadow: 1px 2px 3px #A7A5A6,
+                2px 3px 7px #9F9F9F;
+    font-family: arial,tahoma;
+    text-align: center;
+    margin: 20px;
+}

@@ -1,0 +1,26 @@
+.container {
+    width: 800px;
+    margin: 10px auto;
+    background: #00F;
+    padding: 10px;
+}
+
+.child {
+    background: #F00;
+    color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+
+p {
+    background: #080;
+    color: #FFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* 
+
+*/

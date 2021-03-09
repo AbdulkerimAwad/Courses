@@ -1,0 +1,56 @@
+body {
+    direction: rtl;
+}
+
+div {
+    /* div properties */
+    width: 300px;
+    background-color: #DDD;
+    margin: 10px 0;
+    padding: 10px;
+
+    /* text properties */
+    color: #00F;
+    letter-spacing: normal;
+    text-align: left;
+    direction: ltr;
+
+}
+
+div.ar {
+    direction: rtl;
+    text-align: right;
+}
+
+
+/* 
+    direction:(rtl/ltr)
+    تستخدم لتحديد جهة الكتابة
+*/
+
+/* 
+    letter-spacing
+    تستخدم لتحديد طول المسافات بين حروف الكلمة
+*/
+
+/* 
+    طريقة استدعاء الكلاس 
+    div.ar
+*/
+
+/* 
+    line-height
+    لتحديد مسافة  التباعد بين الاسطر ويمكن كتابة القيمة بنسبة مئوية
+*/
+
+/* 
+    text-align
+    محاذاة النص
+*/
+
+/* 
+    الفرق بين ال
+    -text-align
+    -direction
+    الأول هو اتجاه الكتابة والصفحة أما الثاني فهو اتجاه الكتابة فقط
+*/

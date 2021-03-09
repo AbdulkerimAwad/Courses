@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="part-3.css">
+    <title>selectors => [ Not | first/last-child | first/last-of-type ]</title>
+</head>
+<body>
+    <div class="not">
+        <h1>Not:</h1>
+        <div>hello div</div>
+        <span>hello span</span>
+        <p>hello p</p>
+    </div>
+    <div class="first-child">
+        <h1>var:</h1>
+        <div class="var">
+            <div>hello div</div>
+            <span>hello span</span>
+            <p>hello p</p>
+        </div>
+        <h1>yok:</h1>
+        <div class="yok">
+            <span>hello span</span>
+            <div>hello div</div>
+            <p>hello p</p>
+        </div>
+    </div>
+    <div class="first-of-type">
+        <h1>first:</h1>
+        <div class="first">
+            <div>hello div</div>
+            <div>hello div</div>
+            <div>hello div</div>
+            <div>hello div</div>
+        </div>
+        <h1>last:</h1>
+        <div class="last">
+            <div>hello div</div>
+            <div>hello div</div>
+            <div>hello div</div>
+            <div>hello div</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* 
+    اذا كتبت قيمة واحدة فانه سيعتبرها صفر
+
+    skewX(10deg)
+    skew(10deg)
+    skew(10deg,0)
+
+    skewY(10deg)
+    skew(0,10deg)
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    background: #EEE;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid #CCC;
+    height: 200px;
+    overflow: visible;
+}
+
+.skew {
+    background: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+}
+
+.skew:hover { 
+    -webkit-transform: skew(10deg,30deg);
+    transform: skew(10deg,30deg)
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js => string => Find And Replace</title>
+</head>
+<body>
+    <script>
+        /*
+            charAt(index)
+            charCodeAt(index)
+            replace(value, new value)
+        */
+
+        var myString = "I Love JavaScript Too Mach",
+            
+        // charAt : إبجاد القيمة الموجود في المكان المحدد
+        myCharAt = myString.charAt(0);
+        console.log(myCharAt);
+
+        // charCodeAt : إيجاد رمز القيمة البرمجي
+        myCharCodeAt = myString.charCodeAt(0);
+        console.log(myCharCodeAt);
+
+        // replace
+        myReplace = myString.replace("JavaScript", "Programming");
+        console.log(myReplace);
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* 
+    default: none
+    
+    هو المسافة بين العنصر و المشاهد
+
+
+*/
+
+div {
+    margin-bottom: 5px 0 100px;
+}
+
+/* perspactive-origin: X,Y */
+
+div:first-of-type {
+    perspective: 500px;
+    perspective-origin:  50% 50%;
+}
+
+div:nth-of-type(2) {
+    perspective: 300px;
+    perspective-origin: center;
+}
+
+div:last-of-type {
+    perspective: 200px;
+    perspective-origin: center  ;
+}
+
+img {
+    display: block;
+    margin: 100px auto;
+    transition: all .5s ease-in-out;
+    transform: translateZ(100px)
+}

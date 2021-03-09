@@ -1,0 +1,39 @@
+.height {
+    min-height: 50px;
+    max-height: 100px;
+    float: left;
+    overflow:auto;
+    margin: 20px;
+    padding: 10px;
+    background: #DDD;
+    width: 200px;
+}
+
+
+
+/* 
+    width
+    عرض العنصر 
+*/
+
+/* 
+    min-width 
+    أقل عرض للعنصر
+*/
+
+/* 
+    max-width
+    أقصى عرض للعنصر
+*/
+
+/* 
+    يقبل نسب مئوية
+*/
+
+/* 
+    عند تخطي أبعاد العنر سواء هيت أو ويدث يخرج الكلام من البوكس
+*/
+
+/* 
+    خواص الهيت ذاتها
+*/

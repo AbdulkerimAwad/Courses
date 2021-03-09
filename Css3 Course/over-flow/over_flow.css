@@ -1,0 +1,19 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 
+    الجديد في الدرس أنه بات يمكن تحديد الميزة للعرض والطول كلا على حدة
+*/
+
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}

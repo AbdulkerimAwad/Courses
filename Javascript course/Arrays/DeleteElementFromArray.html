@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js => Delet element from array</title>
+</head>
+<body>
+    <script>
+        var friends = [
+            "Ahmet1",
+            "Ahmet2",
+            "Ahmet3",
+            "Ahmet4",
+            "Ahmet5"
+        ];
+
+        console.log(friends);
+
+        // حذف عنصر من بداية المصفوفة
+        friends.shift();
+        console.log(friends);
+
+        // حذف عنصر من نهاية المصفوفة
+        friends.pop();
+        console.log(friends);
+
+        // حذف عنصر من مكان محدد في المصفوفة
+        friends.splice(1, 1); // index, how many
+        console.log(friends)
+    </script>
+</body>
+</html>

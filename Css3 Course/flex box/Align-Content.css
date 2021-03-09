@@ -1,0 +1,45 @@
+/* 
+    align-content: strech: def
+    -flex-start: يقوم بترتيب العناصر بشكل عامودي من الأعلى إلى الأسفل أو العكس ويبدأ من الاعلى
+
+    -flex-end: يقوم بترتيب العناصر بشكل افقي من الأعلى إلى الأسفل أو العكس ويبدأ من الاسفل
+
+    -center: يقوم بترتيب العناصر بشكل افقي من الأعلى إلى الأسفل أو العكس ويبدأ من الوسط
+
+    -space-between
+
+    -space-around
+
+    يجب عدم وجود مساحة زائدة في العرض وخاصية فليكس راب حتى تعمل الخاصية
+*/
+
+.container {
+    width: 200px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.container div {
+    color: #FFF;
+    width: 180px;
+    padding: 10px;
+    max-height: 100px;
+}
+
+.container div:first-of-type {
+    background-color: #080;
+    
+}
+
+.container div:nth-of-type(2) {
+    background-color: #F00;
+
+}
+.container div:last-of-type {
+    background-color: #00F;
+
+}

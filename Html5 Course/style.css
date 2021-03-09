@@ -1,0 +1,172 @@
+/* start global */
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+
+    body {
+        font-family: arial, tahoma;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+/* end global */
+
+/* start header */
+    .main {
+        background: #333;
+        color: #DDD;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background: #DDD;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    nav ul li:after {
+        content: " |";
+    }
+
+    nav ul li:last-child:after {
+        content: "";
+    }
+/* end header */
+
+/* start main */
+    main {
+        background: #EEE;
+        padding: 20px;
+    }
+
+    main p {
+        text-align:  center;
+    }
+
+    main p span {
+        font-weight: bold;
+        color: #666;
+    }
+
+    main p mark {
+        background-color: #00F;
+        color: #FFF;
+    }
+/* end main */
+
+/* start article */
+    .post {
+        width: 70%;
+        float: left;
+    }
+    .post article {
+        background: #F6F6F6;
+        border: 1px solid #CCC;
+        margin: 20px;
+    }
+
+    .post article header {
+        background: #E2E2E2;
+        padding: 10px;
+    }
+
+    .post article section {
+        padding: 10px;
+
+    }
+
+    .post article section details {
+        margin: 10px 0;
+    }
+
+    .post article section .long-link {
+        width: 200px;
+    }
+
+    .post article section code {
+        background: #FFF;
+        padding: 10px;
+        display: block;
+        margin: 10px 0;
+        border: 1px solid #CCC;
+        max-width: 500px;
+    }
+    
+    .post article section figure img {
+        border: 1px solid #CCC;
+        padding: 3px;
+        background: #FFF;
+    }
+    
+        .post article section .cat-figure {
+            background: #FFF;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #CCC;
+            width: 663px;
+            text-align: center;
+        }
+
+        .post article section dialog {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .post article section input {
+            display: block;
+            margin-bottom: 10px;
+        }
+    /* end article */
+    
+/* start aside */
+    aside {
+        width: 30%;
+        float: right;
+    }
+
+    aside section {
+        background: #EEE;
+        margin: 20px 10px;
+        padding: 10px;
+        border: 1px solid #CCC;
+        margin-bottom: 20px;
+    }
+
+    aside section h3 {
+        background: #D1D1D1;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    aside section ul li {
+        line-height: 1.6;
+    }
+/* end aside */
+
+/* start footer */
+    footer {
+        background: #333;
+        color: #DDD;
+        text-align: center;
+        padding: 10px;
+
+    }
+/* end footer */

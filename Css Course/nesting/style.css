@@ -1,0 +1,26 @@
+.container, .another {
+    width: 600px;
+    background: #DDD;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container p {
+    color: #F00;
+}
+
+.another p {
+    color: #00F;
+}
+
+.container p, .another p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+/* 
+    nesting:
+    يستخدم لتنسق عناصر داخل بوكس معين بدلا من منح كل عنصر في الموقع كلاس فيصبح هناك الكثير من الكلاسات
+*/

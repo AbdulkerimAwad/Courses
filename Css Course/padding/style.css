@@ -1,0 +1,17 @@
+div {
+    color: #FFF;
+    background: #F00;
+    padding: 10px 10px;
+}
+
+
+
+/* 
+    padding
+    الهوامش الداخلية
+*/
+
+/* 
+    لا يأخذ البدينج قيم سلبية
+*/
+

@@ -1,0 +1,90 @@
+div {
+    width: 300px;
+    background: #DDD;
+    margin: 10px 0;
+    padding: 10px;
+
+    color: #00F;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    direction: ltr;
+    text-indent: 50px;
+    white-space: nowrap;
+
+}
+
+span.str {
+    color: #F00;
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: overline;
+}
+
+span.old {
+    color: #F00;
+    text-decoration: line-through;
+}
+
+span.new {
+    color: #00F;
+}
+
+span.cap {
+    text-transform: capitalize;
+}
+
+span.upper {
+    text-transform: uppercase;
+}
+
+span.lower {
+    text-transform: lowercase;
+}
+
+span.space {
+    letter-spacing: -1px;
+    word-spacing: 20px;
+}
+
+/* 
+    text-decoration > default: none
+    -underline: خط تحت النص
+    -overline: خط فوق النص
+    -line-through: خط منتصف النص
+    -
+*/
+
+/* 
+    hover
+    لتعمل تنسيق معين عند وضع المؤشر على العنصر
+*/
+
+/* 
+    text-indent > default: normal
+    قياس الفراغ قبل بداية النص
+*/
+
+/* 
+    text-transform > default: none
+    -capitalize: أول حرف من كل كلمة كبير
+    -uppercase: كل الحروف كبيرة
+    -lowercase: لتحويل نص كله كبير لصغير
+*/
+
+/* 
+    whitespace > default: normal
+    -nowrap: لا يلتزم النص بمساحة البوكس لانه لا يلتف
+    -
+
+
+    لا يطبق التفاف النص مع الكلمة الواحدة التي يزيد طولها عن البوكس بالتالي سيخرج النص من البوكس
+*/
+
+/* 
+    wordspacing > default: normal
+    لتحديد تباعد الكلمات
+*/
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js => array => combine and slice</title>
+</head>
+<body>
+    <script>
+        var myFriends = [
+            "ali",
+            "mostafa",
+            "baraa",
+            "ilyan",
+            "abood",
+            "ahmet"
+        ];
+        console.log(myFriends);
+
+        // إنشاء مصفوفة جديدة بقطع مصفوفة قديمة
+        var myFavotiteFriends = myFriends.slice(0, 2); // start index (Req), end index (notReq)
+        console.log(myFavotiteFriends);
+
+        var myWorkFriends = myFriends.slice(-2, -1);
+        console.log(myWorkFriends);
+
+        // دمج أكثر من مصفوفة
+        coursFriends = [
+            "qusay",
+            "yusuf",
+            "rim"
+        ];
+
+        var allFriends = myFriends.concat(coursFriends);
+        console.log(allFriends);
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 
+    keyframes: 
+            animation name => raquired
+            from( 0% )   to( 100% ) OR 0%, 10%, 20%, 50%, 100%
+            Css Attribute
+*/
+
+/* 
+    animation-shorthand: none 0  ease 0 1 noraml none running
+
+    animation:
+            [ animation name ]
+            [ animation duration ]
+            [ animation timing function ]
+            [ animation delay ]
+            [ animation iteration ]
+            [ animation direction ]
+            [ animation fill mode ]
+            [ animation play state ]
+*/
+
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    color: #FFF;
+    position: absolute;
+    left: 10px;
+    animation: moving 5s ease 0s 1 normal none running
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    background-color: #00F;
+    color: #FFF;
+    position: absolute;
+    left: 120px;
+    animation: moving 5s ease-in 0s 1 normal none running
+}
+
+.third {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0;
+    color: #FFF;
+    position: absolute;
+    left: 230px;
+    animation: moving 5s ease-out 0s 1 normal none running
+}
+
+.fourth {
+    width: 100px;
+    height: 100px;
+    background-color: #080;
+    color: #FFF;
+    position: absolute;
+    left: 340px;
+    animation: moving 5s ease-in-out 0s 1 normal none running
+}
+
+.fifth {
+    width: 100px;
+    height: 100px;
+    background-color: #F0F;
+    color: #FFF;
+    position: absolute;
+    left: 450px;
+    animation: moving 5s linear 0s 1 normal none running
+}
+
+@keyframes moving {
+    0% {
+    top: 10px;
+    }
+
+    100% {
+    top: 420px;
+    }
+}

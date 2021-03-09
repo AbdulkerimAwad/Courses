@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="part4.css">
+    <title>selector => [ only-child | only-of-child | selection ]</title>
+</head>
+<body>
+    <div class="only-child">
+        <h1>var:</h1>
+        <div class="var">
+            <p>hello p</p>
+            <div>hello div</div>
+            <span>hello span</span>
+        </div>
+        <h1>yok:</h1>
+        <div class="yok">
+            <p>hello p</p>
+        </div>
+    </div>
+    <div class="only-of-type">
+        <h1>var:</h1>
+        <div class="var">
+            <p>hello p</p>
+            <p>hello p</p>
+            <div>hello div</div>
+            <div>hello div</div>
+            <span>hello span</span>
+            <span>hello span</span>
+        </div>
+        <h1>yok:</h1>
+        <div class="yok">
+            <div>hello div</div>
+            <div>hello div</div>
+            <p>hello p</p>
+            <span>hello span</span>
+            <span>hello span</span>
+        </div>
+    </div>
+    <div class="selection">
+        <h1>selection:</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit, laudantium, officiis quaerat sed reprehenderit, a molestias provident fugit quos quod quidem possimus incidunt consequatur dolorem voluptatum ex veritatis? Optio?</p>
+        <p>note: to see the score select the text</p>
+    </div>
+</body>
+</html>

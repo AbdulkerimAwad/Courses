@@ -1,0 +1,24 @@
+/* 
+    flex-wrap: def: no-wrap
+    - no-wrap: مهما زادت ويدث العناصر لن يحصل التفاف
+    - wrap: عندما تتجاوز ويدث العناصر ويدث البوكس يحصل التفاف
+    - wrap-reverse: يصنع التفاف لكن يقلب ترتيب العناصر
+*/
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.container div {
+    background-color: #080;
+    color: #FFF;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+}

@@ -1,0 +1,36 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+    
+}
+
+section {
+    width: 940px;
+    margin: 20px auto;
+    background: #EEE;
+    overflow: hidden
+}
+
+.left {
+    float: left;
+    width: 20%;
+    background: #F00;
+    color: #FFF;
+    padding: 10px;
+    border: 10px solid #FF0;
+}
+
+.right {
+    float: right;
+    width: 80%;
+    background: #00F;
+    color: #FFF;
+    padding: 10px;
+}
+
+
+
+/* 
+    box-sizing: border-box; لاضافة بادينج وبوردر دون زيادة مساحة الويدث
+*/

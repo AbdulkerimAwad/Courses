@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript => Date - Format</title>
+  </head>
+  <body>
+    <script>
+
+        /*
+            Full Format
+            Long Format
+            Short Format
+            ISO Format
+
+            Javascript Ignore Commas
+            Javascript Month Insensetive
+            [Month Day Year] Or [Day Month Year]
+        */
+
+        // Example One
+
+        var theDate = new Date("October 25, 1982 09:20:50");
+
+        console.log(theDate);
+
+        // Example Two
+
+        var theDate = new Date("Sat October 25, 1982 09:20:50");
+
+        console.log(theDate);
+
+        // Example Three
+
+        var theDate = new Date("Oct 25, 1982 09:20:50");
+
+        console.log(theDate);
+
+        // Example Four
+
+        var theDate = new Date("Oct,, 25,,,, ,1982,, ,,09:20:50");
+
+        console.log(theDate);
+
+        // Example Five
+
+        var theDate = new Date("OCTOBER 25, 1982 09:20:50");
+
+        console.log(theDate);
+
+        // Example Six
+
+        var theDate = new Date("10/25/1982");
+
+        console.log(theDate);
+
+        // Example Seven
+
+        // new Date("YYYY-MM-DD hh:mm:ss TZD");
+
+        var theDate = new Date("1982-10-25 09:20:50+04:00");
+
+        console.log(theDate);
+
+    </script>
+  </body>
+</html>

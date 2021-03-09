@@ -1,0 +1,50 @@
+.left {
+    width: 300px;
+    background: #080;
+    color: #FFF;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.right {
+    width: 300px;
+    background: #080;
+    color: #FFF;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+}
+
+
+
+
+
+/* 
+    float > def: none
+*/
+
+/* 
+    float:
+    -left
+    -right
+*/
+
+/* 
+    في حال تمت إزالة عنصر فانه يتقدم بقية العناصر لتحل محله
+*/
+
+/* 
+    يقوم بوضع العناصر على سطر واحد وكل عنصر في اتجاه 
+*/
+
+/* 
+    clear: لازالة الفلوت في حال بدأت بفقرة جديدة لا تريد تطبيق الفلوت عليها
+    -both: اي للاتجاهين يمين ويسار
+    -left: لليسار فقط
+    -right: لليمين فقط
+*/

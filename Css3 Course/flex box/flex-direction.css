@@ -1,0 +1,26 @@
+/* 
+    dispaly: flex لتفعيل مرونة البوكس
+
+    flex-direction: def: row
+    - row: يجعل العناصر في صف واحد ومع عاتجاه الصفحة
+    - row-reverse: يجعل العناصر في صف واحد وعكس عاتجاه الصفحة
+    - column: يجعل العناصر في صف عمودي من الاعلى الى الاسفل
+    - column-reverse: يجعل العناصر في صف عمودي من الاسفل الى الاعلى
+*/
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    background-color: #080;
+    color: #FFF;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+}

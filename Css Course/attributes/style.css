@@ -1,0 +1,19 @@
+input[type="text"]{
+    color: #080;
+}
+
+input[type="password"]{
+    color: #F00;
+}
+
+input[type="search"]{
+    color: #00F;
+}
+
+
+
+/* 
+    element[attributes="value"] نقوم بتنسيق العنصر حسب السمات الخاصة به
+
+    a[title="testing]{}
+*/

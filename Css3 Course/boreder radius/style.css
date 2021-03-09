@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: #DDD;
+    margin: 20px auto;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    -ms-border-radius: 100px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+
+
+}
+
+
+
+/* 
+    لانشاء زاوية مستديرة بالكامل اما نستخدم نصف طول الضلع أو نستخدم النسبة المئوية 50
+
+
+    
+*/

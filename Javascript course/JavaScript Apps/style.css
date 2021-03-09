@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ---------------------- Main --------------------- */
+
+.posts {
+    width: 60%;
+    padding: 1em; margin: 1em auto;
+    border: 1px solid #DDD;
+}
+
+.posts article {
+    width: 97%;
+    padding: 1em; margin: 1em auto;
+    background-color: #DDD;
+    border: 1px solid #BBB;
+}
+
+.posts article h2 {
+    margin-bottom: 1em;
+    color: #FFF;
+    text-shadow: -1px 0 #888, 0 1px #888,
+                 1px 0 #888, 0 -1px #888;
+}
+
+.posts article .container {
+    width: 100%;
+    height: 2.5em;
+}
+
+/* -------------------- End Main ------------------- */
+
+/* ----------------- First Article ----------------- */
+
+.posts article:first-of-type .container input,
+.posts article:first-of-type .container select {
+    height: 100%;
+    padding: .5em;
+    font-size: 1em;
+    border: none; outline: none;
+}
+
+.posts article:first-of-type .container input[type="number"] {
+    width: 50%;
+}
+
+.posts article:first-of-type .container select {
+    width: 25%;
+}
+
+.posts article:first-of-type .container input[type="button"] {
+    width: calc(25% - 10px);
+    background-color: #FFF;
+    font-weight: 500;
+}
+
+.posts article:first-of-type #AgeResulte {
+    width: 100%; height: 2.5em;
+    padding-top: .5em;
+    font-weight: bolder;
+}
+
+/* --------------- End First Article --------------- */
+
+/* ------------------ Sec Article ------------------ */
+
+.posts article:nth-of-type(2) .container input,
+.posts article:nth-of-type(2) .container select {
+    height: 100%;
+    padding: .5em;
+    border: none; outline: none;
+    font-size: 1em;
+}
+
+.posts article:nth-of-type(2) .container input[type="text"] {
+    width: 50%;
+}
+
+.posts article:nth-of-type(2) .container select {
+    width: 25%;
+}
+
+.posts article:nth-of-type(2) .container input[type="button"] {
+    width: calc(25% - 10px);
+    background-color: #FFF;
+    font-weight: 500;
+}
+
+.posts article:nth-of-type(2) #selectResult {
+    width: 100%; height: 2.5em;
+    padding-top: .5em;
+    font-weight: bolder;
+}
+
+/* ---------------- End Sec Article ---------------- */
+
+/* ------------------- Thi Artcle ------------------ */
+
+.posts article:nth-of-type(3) .container {
+    display: flex;
+}
+
+.posts article:nth-of-type(3) .container div {
+    width: 50%;
+    padding-left: .5em; margin-right: .5em;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    user-select: none;
+}
+
+.posts article:nth-of-type(3) .container input {
+    width: 25%;
+    border: none; outline: none;
+    background-color: #FFF;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+/* ---------------- End Thi Article ---------------- */

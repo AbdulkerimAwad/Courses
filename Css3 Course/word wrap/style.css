@@ -1,0 +1,26 @@
+/* 
+    Word Wrap:
+    -def: normal: تقوم بكسر السطر فقط اذا وجد فراغ أو مكان قابل للالتفاف
+    -break-word: تقوم بكسر السطر وخاصة لو كانت كلمة واحدة طويلة
+
+    White Space:
+    -def: normal: تقوم بعمل بريك عن أول فراغ
+*/
+
+/* div {
+    background-color: #EEE;
+    padding: 10px;
+    border: 1px solid #CCC;
+    font-family: Arial,Tahoma;
+    width: 300px;
+    word-wrap: break-word;
+} */
+
+div {
+    background-color: #EEE;
+    padding: 10px;
+    border: 1px solid #CCC;
+    font-family: Arial,Tahoma;
+    width: 300px;
+    white-space: normal;
+}

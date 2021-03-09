@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <!--[if lt IE 9]>
+            <script src="html5shiv.min.js"></script>
+        <!-[end if]-->
+    </head>
+    <body>
+        <!-- start header -->
+            <header class="main">
+                <h1>html5 course</h1>
+            </header>
+        <!-- end header -->
+        
+        <!-- start navigation -->
+            <nav>
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>services</li>
+                    <li>contact us</li>
+                </ul>
+            </nav>
+        <!-- end navigation -->
+
+        <!-- start main content -->
+            <main><p>welcome to our <span><mark>html5</mark> course</span> from elzero web school</p></main>
+        <!-- end main content -->
+        
+        <div class="post">
+        <!-- start articles -->
+            <article>
+                <header>
+                    <h3>our new framework milestone</h3>
+                    <p>created by <span>abdulkerim</span> on <time datetime="2020-6-10 11:39">10/6/2020</time></p>
+                </header>
+                <section>
+                    <p>this is article content number #01</p>
+                    <div>
+                        design : <progress value="7" max="10"></progress><br>
+                        coding : <progress value="65" max="100"></progress>
+                    </div>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>article about using &lt;details&gt;</h3>
+                    <p>created by <span>abdulkerim</span> on <span>9/6/2020</span></p>
+                </header>
+                <section>
+                    <p>this is article content number #02</p>
+                    <p>
+                        <details>
+                            <summary>refrences</summary>
+                            <ul>
+                                <li>ref 1</li>
+                                <li>ref 2</li>
+                                <li>ref 3</li>
+                            </ul>
+                        </details>
+                    </p>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>article about using &lt;wbr&gt;</h3>
+                    <p>created by <span>abdulkerim</span> on <span>9/6/2020</span></p>
+                </header>
+                <section>
+                    <p>this is article content number #03</p>
+                    <div class="long-link">https://www.youtube.com<wbr>/watch</wbr>?v=xNxChPYEYNU&list=<wbr>PLDoPjvoNmBAyXCAQMLhDRZsLi_HurqTBZ</wbr>&index=11</div>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>article about using code inside &lt;figure&gt;</h3>
+                    <p>created by <span>abdulkerim</span> on <span>9/6/2020</span></p>
+                </header>
+                <section>
+                    <p>this code describe the div syntax</p>
+                    <figure>
+                        <figcaption>this is div syntax 1-3</figcaption>
+                        <code>
+                            &lt;div&gt; this is normal syntax for div&lt;/div&gt;
+                        </code>
+                    </figure>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>article about using image inside &lt;figure&gt;</h3>
+                    <p>created by <span>abdulkerim</span> on <span>9/6/2020</span></p>
+                </header>
+                <section>
+                    <p>this code describe the image inside figure</p>
+                    <dialog open>this is dialoge frome HTML5</dialog>
+                    <figure .cat-figure>
+                        <img src="kedi.jpg" alt="benim kedim" title="benim kedim">
+                        <img src="kedi.jpg" alt="benim kedim" title="benim kedim">
+                        <img src="kedi.jpg" alt="benim kedim" title="benim kedim">
+                        <figcaption>three image contain cats see the full list <a href="#">here</a></figcaption>
+                    </figure>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>article about using &lt;video&gt;</h3>
+                    <p>created by <span>abdulkerim</span> on <span>9/6/2020</span></p>
+                </header>
+                <section>
+                    <p>this is html5 video</p>
+                    <video controls width="320" height="300"  loop muted poster="kedi.jpg" preload="auto"><!--autoplay-->
+                        <source src="G.mp4.wmv " type="video/x-ms-wmv">
+                        <source src="G.mp4 " type="video/mp4">
+                        <source src="g.ogg" type="vidio/ogg">
+                        <source src="g.webm" type="video/webm">
+                        <track src="kerim.vtt" kind="subtitles" srclang="en" label="english">
+                        your browser does not support video technology
+                    </video>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>article about using &lt;video&gt;</h3>
+                    <p>created by <span>abdulkerim</span> on <span>9/6/2020</span></p>
+                </header>
+                <section>
+                    <p>new input field</p>
+                    <form class="html5">
+                        <label>color</label>
+                        <input type="color" name="theme" value="#0000FF">
+
+
+                        <label>range</label>
+                        <input type="range" name="choose" min="0" max="100" step="25" value="50">
+
+
+                        <label>number</label>
+                        <input type="number" min="0" max="30" step="10">
+
+
+                        <label>email</label>
+                        <input type="email" name="email">
+
+
+                        <label>search</label>
+                        <input type="search" name="search">
+
+
+                        <label>link</label>
+                        <input type="url" name="link">
+
+
+                        <label>time</label>
+                        <input type="time" name="timinig">
+
+
+                        <label>datetime</label>
+                        <input type="datetime-local">
+
+                        <label>date</label>
+                        <input type="date" name="date">
+
+                        <label>month</label>
+                        <input type="month" name="month">
+
+
+                        <label>week</label>
+                        <input type="week" name="week">
+                        <input type="submit" value="send">
+                    </form>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>article about using new form attributes</h3>
+                    <p>created by <span>abdulkerim</span> on <span>12/6/2020</span></p>
+                </header>
+                <section>
+                    <p>new form attributes</p>
+                    <form id="main-form" method="GET">
+                        <input type="text" name="username" autofocus placeholder="type your username">
+                        <label>email</label>
+                        <input type="email" name="mail" autocomplete="off" multiple>
+                        <input type="file" multiple>
+                        <label>number</label>
+                        <input type="number" min="0" max="100" step="10">
+                        <label>pattern</label>
+                        <input type="text" pattern="[A-Za-z]{6}" required>
+                        <label>read only</label>
+                        <input type="text" name="read" value="osama-read" readonly>
+                        <label>disabeled</label>
+                        <input type="text" name="read" value="osama-dis" disabled>
+                        <input type="submit" value="default submit">
+                        <input type="submit" formnovalidate value="submit without validation">
+                        <input type="submit" formnovalidate formtarget="_blank" value="other submit in new window">
+                    </form>
+                    <label>nickname</label>
+                    <input type="text" name="nickname" form="main-form" required>
+                </section>
+            </article>
+        <!-- end articles -->
+        </div>
+        
+        <!-- start sidbar -->
+            <aside>
+                <section class="links">
+                    <h3>categories</h3>
+                    <ul>
+                        <li>intro</li>
+                        <li>semantics</li>
+                        <li>api</li>
+                        <li>new attributes</li>
+                        <li>multimedia elements</li>
+                    </ul>
+                </section>
+                <section class="meter">
+                    <h3>performance</h3>
+                    <div>
+                        cpu : <meter    min         = "0"
+                                        max         = "1"
+                                        value       = "0.4"
+                                        low         = "0.5"
+                                        high        = "0.8"
+                                        optimum     = "0.9" ></meter>
+                    </div>
+                </section>
+                <section class="top-member">
+                    <h3>top member</h3>
+                    <ul>
+                        <li>osama: 90 point</li>
+                        <li>ahmed: 120 point</li>
+                        <li>sayed: 50 point</li>
+                        <li><bdi>علي</bdi>:80 point</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>what is your best browser?</h3>
+                    <form>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                        <option value="chrome"></option>
+                        <option value="firefox"></option>
+                        <option value="safari"></option>
+                        <option value="same"></option>
+                        <option value="opera"></option>
+                        <option value="opacity"></option>
+                        <option value="internet explorer"></option>
+                        </datalist>
+                        <input type="submit" value="choose">
+                    </form>
+                </section>
+                <section class="calculate-age">
+                    <h3>calculate your are in days</h3>
+                    <form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' days' ">
+                        <input type="text" name="age">
+                        <input type="hidden" name="days" value="365">
+                        <output name="result"></output>
+                    </form>
+                </section>
+                <section>
+                    <h3>today's audio</h3>
+                    <audio controls autoplay loop muted preload="auto">
+                        <source src="Kalimba.mp3" type="audio/mpeg">
+                        <source src="Kalimba.ogg" type="audio/ogg">
+                        your browser do not support audio technology
+                    </audio>
+                </section>
+            </aside>
+        <!-- end sidbar -->
+
+        <div class="clearfix"></div>
+
+        <!-- start footer -->
+            <footer>copyright 2020 &copy; all right resrved</footer>
+        <!-- end footer -->
+    </body>
+</html>
+
+
+
+<!-- 
+    deprecated tags:
+    [acronym] => [abbr]
+    [applet] => [object]
+    [basefont] => [css]
+    [big] => [css]
+    [dir] => [ol or ul]
+    [font] => [css]
+    [frameset]
+    [strike] => [css]
+    [tt] => css
+-->
+
+<!-- 
+    يمكن كتابة قيمة السمة بلا دبل كودس في حال كانت كلمة واحدة 
+-->
+
+<!-- تتعامل المتصفحات الحديثة مع العناصر الغير معروفة على أنها إن لاين -->
+
+<!-- الهيدر يستخدم لوصف الجز  العلوي لاي عنصر -->
+
+<!-- main
+هذا التاج لا يتكرر في الموقع
+-->
+
+<!-- الفرق بين ال
+    progress,meter
+    أنه ال
+    progress فقط تقدم
+    أما ال
+    meter قد يتقدم و يتراجع
+-->
+<!-- meter:
+    min: def: 0 يبدأ من ال
+    max: def: 1 ينتهي عند
+    low: أداء منخفض
+    high: أداء عالي
+    optimum: أنسب أداء
+-->
+
+<!-- 
+    يصبح ال
+    meter
+    لونه أحمر إذا كان
+    - value < low < high < optimum
+    - value > high > low > optimum
+ -->
+
+<!-- 
+    figure
+    يدل على عنصر اذا تمت ازلاته لا يؤثر على تصميم الصفحة
+
+ -->
+
+<!-- 
+    bdi
+    يستخدم لحل مشكلة ال
+    direction
+    وخلط العربي مع الانكليزي
+ -->
+
+<!-- 
+    audio
+    -loop: لتكرار المقطع عند الانتهاء
+    -autoplay: تشغيل تلقائي عند تحميل الصفحة
+    -controls: لاظهار النحكم بالمقطع
+    -muted: لكتم صوت المقطع عند تحميل الصفحة
+    -preload: تعطي نصيحة للمتصفح بشأن تحميل المقطع
+ -->
+
+<!-- input
+    -disabeled: تضاف للانبوت لمنع الكتابة فيه
+    -required: لجعل الحقل مطلوب
+    -autocomplete:لمنع الحقل من عرض اقتراحات
+    -autofocus:لتحديد عنصر حال تحميل العنصر
+-->
+
+<!-- 
+    form
+    -novalidate:لا تدقق على الادخالات
+    -action:رابط صفحة المعالجة
+    -method: طريقة ارسال البيانات
+    -multiple: لكتابة أكثر من ايميل أو رفع أكثر من ملف
+ -->
+
+
+<!-- 
+    pattern
+    يتعامل مع 
+    text ,search ,tel ,url ,email
+ -->
+
+<!-- 
+    الفرق بين ال
+    read only vs disabled
+    -الديسيبل لا يتم ارسال بياناته
+    -الريد اونلي تقبل التحديد التلقائي
+    -
+ -->

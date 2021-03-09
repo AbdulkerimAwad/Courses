@@ -1,0 +1,48 @@
+p {
+    font:italic bold 30px/40px "trebuchet ms", helvetica, sans-serif
+}
+
+
+
+/* 
+    font-family > default : from browser
+*/
+
+/* 
+    اذا كان اسم الخط يتألف من عدة كلمات نكتبه داخل دبل كودس
+*/
+
+/* 
+    لكتابة أكثر من نوع خط نضع بينهما (,)
+*/
+
+/* 
+    font-style > default: normal
+    -italic: نص مائل
+*/
+
+/* 
+    font-size: > default: medium = 16px
+    -small
+    -x-small
+    -xx-small
+    -larg
+    -x-larg
+    -xx-larg
+    -smaller: أصغر من خط البوكس المتواجد فيه
+    -larger: أكبر من خط البوكس المتواجد فيه
+*/
+
+/* 
+    font-weight > def: normal = 400
+    -bold: سميك = 700
+    -bolder: أسمك
+    -lighter: خفيف
+    - 100 ==> 900
+*/
+
+/* 
+    font: font-style / font-weight / font-size / line-height / font-family
+
+    font:italic bold 30px/40px "trebuchet ms", helvetica, sans-serif
+*/

@@ -1,0 +1,30 @@
+/* 
+
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    background: #EEE;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid #CCC;
+    height: 200px;
+}
+
+.scale {
+    background: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+}
+
+.scale:hover {
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+}

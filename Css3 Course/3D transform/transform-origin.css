@@ -1,0 +1,63 @@
+/* 
+    هو نقطة التأثير على العنصر
+
+    transform-style: flar:def
+    -preserve-3d
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    perspective: 500px;
+}
+
+/* /transform-origin/
+ div {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background: #F00;
+    transition: all 1s ease-in-out;
+}
+
+div:hover {
+    transform: rotate(360deg);
+    transform-origin: bottom right;
+} */
+
+.father {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    background: #080;
+    transition: all .5s ease-in-out;
+    transform: rotateY(20deg);
+    transform-style: preserve-3d;
+}
+
+.child1 {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background: #F00;
+    transform: translateZ(50px) rotateY(45deg);
+}
+
+.child2 {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background: #00F;
+    transform: translateZ(50px) rotateX(45deg);
+}

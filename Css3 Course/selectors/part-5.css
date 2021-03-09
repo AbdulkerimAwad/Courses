@@ -1,0 +1,50 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: arial, tahoma;
+}
+
+/* 
+    Nth: Number th [ 1st, 2st, 3st, 4st ... ] 
+    Nth( Number , formula, keyword )
+*/
+
+/* 
+    :nth-last-child() to start from end
+    :nth-last-of-type() to start from end
+*/
+
+body > div {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin: 10px;
+}
+
+body > div p {
+    margin: 0;
+}
+
+.nth-child :nth-child(3) {
+    color: #F00;
+}
+
+.nth-child-even :nth-child(even) {
+    color: #F00;
+}
+
+.nth-child-odd :nth-child(odd) {
+    color: #F00;
+}
+
+.nth-of-type p:nth-of-type(2) {
+    color: #F00;
+}
+
+.nth-of-type-even p:nth-of-type(even) {
+    color: #F00;
+}
+
+.nth-of-type-odd p:nth-of-type(odd) {
+    color: #F00;
+}

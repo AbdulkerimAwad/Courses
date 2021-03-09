@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript => Date - Methods Part 1</title>
+  </head>
+  <body>
+    <script>
+
+        /*
+            getDate() // Day of The Month 1-31
+            getDay() // Day of The Week 0-6
+            getFullYear() // Get The Full Year
+            getHours() // Get Hours 0-23
+            getMinutes() // Get Minutes 0-59
+            getSeconds() // Get Seconds 0-59
+            getMilliseconds() // Get Milliseconds 0-999
+            getTime() / Number of Milliseconds From 1970 Or Specific Date
+            getTimezoneOffset() // Get Def Between UTC And Your Local Time in Minutes
+        */
+
+        // Get Date
+
+        var theDate = new Date(),
+
+        theDay = theDate.getDate();
+
+        console.log(theDate);
+
+        // Get Day
+
+        var theDate = new Date("25 October 1982"),
+
+        theDay = theDate.getDay();
+
+        console.log(theDate);
+
+        // Get Full Year
+
+        var theDate = new Date(),
+
+        theYear = theDate.getFullYear();
+
+        console.log(theYear);
+
+        // Get Hours
+
+        var theDate = new Date(),
+
+        dt = theDate.getHours();
+
+        console.log(dt);
+
+        // Get Minutes
+
+        var theDate = new Date(),
+
+        dt = theDate.getMinutes();
+
+        console.log(dt);
+
+        // Get Seconds
+
+        var theDate = new Date(),
+
+        dt = theDate.getSeconds();
+
+        console.log(dt);
+
+        // Get Milliseconds
+
+        var theDate = new Date(),
+
+        dt = theDate.getMilliseconds();
+
+        console.log(dt);
+
+        // Get Time
+
+        var theDate = new Date(),
+
+        dt = theDate.getTime(); // 1460186815705
+
+        console.log(dt);
+
+        // Get Time Zone Offset
+
+        var theDate = new Date(),
+
+        dt = theDate.getTimezoneOffset();
+
+        console.log(dt);
+
+    </script>
+  </body>
+</html>

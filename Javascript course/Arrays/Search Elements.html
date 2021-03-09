@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js => array => Search Elements</title>
+</head>
+<body>
+    <div id="all"></div>
+    <div id="special"></div>
+    <script>
+        var myFriends = [
+            "Baraa",
+            "Ilyan",
+            "Ali",
+            "Mostafa",
+            "Ahmet"
+        ];
+        // indexOf|lastIndexOf("value search", starting index // 'notReq' )
+        var specialFriends = myFriends.indexOf("Ali");
+
+        document.getElementById("all").innerHTML = "my all friends are: " + myFriends;
+        document.getElementById("special").innerHTML = "my special friend is: " + myFriends[specialFriends];
+    </script>
+</body>
+</html>

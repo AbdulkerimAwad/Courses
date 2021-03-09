@@ -1,0 +1,21 @@
+div{
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    transition: all .5s ease-in-out;
+}
+
+img:hover {
+    box-shadow: 7px 7px 20px #E4E4E4,
+                -7px -7px 20px #E4E4E4;
+    
+}

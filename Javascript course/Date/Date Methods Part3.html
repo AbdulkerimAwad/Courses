@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript => Date - Methods Part 3</title>
+  </head>
+  <body>
+    <script>
+
+        /*
+            now()
+            parse()
+            toISOString()
+            toDateString()
+            toTimeString()
+        */
+
+        // Example One
+
+        var theDate = new Date(),
+
+        now = Date.now(),
+
+        min = 1000 * 60,
+
+        day = hour * 24,
+
+        month = day * 30,
+
+        year = month * 12;
+
+        console.log(Math.round(now / year));
+
+        // Example Two
+
+        var theDate = new Date(),
+
+        now = Date.parse("25 Oct 1982 12:20:50"),
+
+        min = 1000 * 60,
+
+        day = hour * 24,
+
+        month = day * 30,
+
+        year = month * 12;
+
+        console.log(now / year);
+
+        // Example Three
+
+        var theDate = new Date(),
+
+        myIso = theDate.toTimeString();
+
+        console.log(myIso);
+
+    </script>
+  </body>
+</html>

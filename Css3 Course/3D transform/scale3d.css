@@ -1,0 +1,17 @@
+/* 
+
+*/
+
+body {
+    perspective: 600px;
+}
+
+img {
+    display: block;
+    margin: 100px auto;
+    transition: all .5s ease-in-out;
+}
+
+img:hover {
+    transform: scaleZ( 3 ) rotateY(60deg)
+}

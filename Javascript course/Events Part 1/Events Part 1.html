@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .container #one {
+            width: 200px; height: 200px; padding: .5em; margin: 1em;
+            background-color: #080;
+        }
+
+        .container #two {
+            width: 200px; height: 200px; padding: .5em; margin: 1em;
+            background-color: #0F0;
+        }
+    </style>
+    <title>Js => Events Part 1 - onload, onclick, ondblclick</title>
+</head>
+<body id="body">
+    <div class="container">
+        <div id="one" onclick="onClick()">dokun bani</div>
+        <div id="two" ondblclick="onDblClick()">Iki Defa Dokun Beni</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

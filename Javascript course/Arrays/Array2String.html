@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js => Array To String</title>
+</head>
+<body>
+    <script>
+        var 
+            friendOne = "Ahmet1",
+            friendTwo = "Ahmet2",
+            friendThree = "Ahmet3",
+            friendFour = "Ahmet4";
+
+        /**
+         * Array:
+         * var ArrayName = ["element1", "element2" "element3"]
+         */
+
+        var friends = ["Ahmet1", "Ahmet2", "Ahmet3", "Ahmet4"];
+
+        var friends2 = [
+            "Ahmet1",
+            "Ahmet2",
+            "Ahmet3",
+            "Ahmet4"
+        ];
+        
+
+        // Array to straing
+        friends1 = friends.toString(); // convert to string
+        console.log(friends); // string
+
+        // Array to local string
+        var myDate = new Date();
+            myString = myDate.toString;
+            myLocaleString = myDate.toLocaleString();
+
+        console.log(myDate);
+        console.log(myLocaleString);
+
+        // تحديد نوع الفاصل بين عناصر السترينج الذي هو بالأصل مصفوفة
+        friends2 = friends2.join(" | ");
+        console.log(friends2);
+    </script>
+</body>
+</html>

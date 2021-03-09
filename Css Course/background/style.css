@@ -1,0 +1,49 @@
+div {
+    width: 900px;
+    height: 900px;
+    background:#0000FF url("icone.png") no-repeat scroll center right
+}
+
+
+
+/* 
+    RGBA()
+    الحرف الاخير لتحديد شفافية اللون
+*/
+
+/* 
+    لجعل خلفية الديف صورة 
+    background-image:url(icone.png)
+*/
+
+/* 
+    background-repeat
+    -repeat تكرار عرضي طولي
+    -no repeat بلا تكرار
+    -repeat-x تكرار افقي
+    -repeat-y تكرار عامودي
+
+*/
+
+/* 
+    background-attachment:
+    -fixed الصورة تتبع الصفحة
+    -scroll تبقى الصورة مكانها والصفحة تنزل
+
+*/
+
+/* 
+    background-position: توضع الصورة داخل الديف
+    -top(right/left)
+    -right(top/buttom)
+    -buttom(right/left)
+    -right(top/buttom)
+    -center center
+    -center(right/left/top/buttom)
+    -يمكن كتابة الموقع بالنسبة المؤية
+*/
+
+/*  اختصار كل الاكواد
+    background:#0000FF url("../image/icon.png") no-repeat scroll 10% 40%
+*/
+

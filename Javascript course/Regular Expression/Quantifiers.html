@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript => RegExp - Quantifiers</title>
+  </head>
+  <body>
+    <script>
+
+        /* 
+            Quantifiers
+            Letter+ => Word Contains One Letter
+            Letter{Number} => Word Contains Number Of Letters
+            Letter{Number, Number} => Word Contains Number Or Number
+            Letter{Number,} => Word Contains At Least Number 
+        */
+
+        var string = "I Love Elzero Web School";
+
+        console.log("I Love Elzero Web School".replace(/e+/gi, "@"));
+        console.log("I Loveee Elzeero Weeeb School".replace(/e{3}/gi, "@"));
+        console.log("I Lovee Elzeeero Web School".replace(/e{2,3}/gi, "@"));
+        console.log("I Lovee Elzeeero Web School".replace(/e{2,}/gi, "@"));
+
+    </script>
+  </body>
+</html>

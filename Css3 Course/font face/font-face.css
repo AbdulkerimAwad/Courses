@@ -1,0 +1,25 @@
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    width: max-content;
+    margin: auto;
+}
+
+/* 
+    لاستدعاء خط من الجهاز قمت بتصميمه مسبقا 
+*/
+
+@font-face {
+    font-family: Example;
+    src: url('Fonts/Example.ttf');
+}
+
+/*
+    لتدعيم الخط على جميع المتصفحات
+
+    TTF
+    OTF
+    WOFF
+    WOFF2
+    SVG
+*/

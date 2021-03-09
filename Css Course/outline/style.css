@@ -1,0 +1,14 @@
+div{
+    background: #00F;
+    color: #FFF;
+    padding: 10px;
+    border: 10px solid #F00;
+    outline: 5px solid #080;
+}
+
+
+
+/* 
+    outline:
+    لا يزيد من مساحة العنصر على عكس البوردر الذي يحسب من مساحة العنصر
+*/

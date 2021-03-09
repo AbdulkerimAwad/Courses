@@ -1,0 +1,16 @@
+span {
+    cursor: pointer;
+}
+
+
+
+/* 
+    cursor > def: auto
+*/
+
+/* 
+    cursor: تحديد شكل المؤشر
+    -pointer: شكل اليد
+    -self: علامة زائد
+    -....
+*/

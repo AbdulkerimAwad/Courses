@@ -1,0 +1,30 @@
+div {
+    background: #DDD;
+    padding: 10px;
+    margin: 10px;
+    border-left:3px solid #080 ;
+}
+
+
+
+/* 
+    border: 1px solid #676767
+*/
+
+/* 
+    border-width (top / right / bottom / left)
+    لتحديد سمك الاطار
+*/
+
+/* border-style (top / right / bottom / left)
+    لتحديد شكل الاطار
+    -solid
+    -dashed
+    -groove
+    -....
+*/
+
+/* 
+    border-color (top / right / bottom / left)
+    لتحديد لون الاطار
+*/

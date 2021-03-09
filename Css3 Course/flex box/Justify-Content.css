@@ -1,0 +1,39 @@
+/* 
+    justify-content: محاذاة المحتوى
+    - center
+    - flex-start
+    - flex-end
+    - space-between
+    - space-around
+*/
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.container div {
+    color: #FFF;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+.container div:first-of-type {
+    background-color: #080;
+    
+}
+
+.container div:nth-of-type(2) {
+    background-color: #F00;
+
+}
+.container div:last-of-type {
+    background-color: #00F;
+
+}

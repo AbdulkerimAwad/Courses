@@ -1,0 +1,57 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 
+    1
+    ~ = next | أي عنصر مشترك بعد العنصر الأول طبق عليه الخواص
+
+    2
+    ^ = start | أي كلاس يبدأ بقيمة أو حرف محدد طبق عليه الخواص
+
+    3
+    $ = end | نفس الخواص السابقة لكن ينتهي بقيمة أو حرف محدد
+
+    4
+    * = all | طبق على كل العناصر
+*/
+
+/* -------------------- next selector ------------------- */
+
+body > div {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.next p ~ span {
+    color: #F00;
+}
+
+/* ------------------ end next selector ----------------- */
+
+/* ----------------- with selector ---------------- */
+
+.start-with [class^="a"] {
+    color: #F00;
+}
+
+/* --------------- end with selector -------------- */
+
+/* ------------------ end with selector ----------------- */
+
+.end-with [class$="ad"] {
+    color: #F00;
+}
+
+/* ---------------- end end with selector --------------- */
+
+/* -------------------- all selector -------------------- */
+
+.all [class*="mm"] {
+    color: #F00;
+}
+
+/* ------------------ end all selector ------------------ */

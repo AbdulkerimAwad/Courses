@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js => Add element to array</title>
+</head>
+
+<body>
+    <script>
+        var friends = [
+            "Ahemt",
+            "Mehmet",
+            "Mahmut",
+            "Hamada"
+        ];
+
+        console.log(friends);
+        console.log(friends.length);
+
+        // إضافة عنصر إلى المصفوفة 1
+        friends[4] = "sameh";
+        console.log(friends);
+        console.log(friends.length);
+
+        // إضافة عنصر إلى المصفوفة في نهاية المصفوفة
+        friends.push("sayed");
+        console.log(friends);
+
+        // إضافة عنصر إلى المصفوفة في بداية المصفوفة
+        friends.unshift("Abdulkerim");
+        console.log(friends);
+
+        // إضافة عنصر في المصفوفة في مكان محدد
+        friends.splice(2, 0, "Hamdi"); // ArrayName.splise(index, how many, item1, item2, item3)
+        console.log(friends)
+    </script>
+</body>
+
+</html>

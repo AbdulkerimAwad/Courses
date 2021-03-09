@@ -1,0 +1,109 @@
+/* 
+    order: ترتيب العنصر
+    flex-grow: نمو العنصر
+    flex-shrink: تقلص العنصر
+*/
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+}
+
+.container div {
+    color: #FFF;
+    width: 150px;
+    padding: 10px;
+    max-height: 100px;
+}
+
+.container .one {
+    background-color: #080;
+    order: 2;
+}
+
+.container .two {
+    background-color: #F00;
+    order: 1;
+}
+.container .three {
+    background-color: #0F0;
+    order: 4;
+}
+
+.container .four {
+    background-color: #00F;
+    order: 3;
+}
+
+
+
+.container-two {
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+}
+
+.container-two div {
+    color: #FFF;
+    width: 150px;
+    padding: 10px;
+    max-height: 100px;
+}
+
+.container-two .one-two {
+    background-color: #080;
+    
+}
+
+.container-two .two-two {
+    background-color: #F00;
+    flex-grow: 1;
+}
+.container-two .three-two {
+    background-color: #0F0;
+
+}
+
+.container-two .four-two {
+    background-color: #00F;
+}
+
+
+
+.container-three {
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+}
+
+.container-three div {
+    color: #FFF;
+    width: 150px;
+    padding: 10px;
+    max-height: 100px;
+}
+
+.container-three .one-three {
+    background-color: #080;
+    
+}
+
+.container-three .two-three {
+    background-color: #F00;
+    flex-shrink: 2;
+}
+.container-three .three-three {
+    background-color: #0F0;
+
+}
+
+.container-three .four-three {
+    background-color: #00F;
+}

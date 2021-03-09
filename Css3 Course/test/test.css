@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: arial, tahoma;
+    text-transform: capitalize;
+}
+
+.main {
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    perspective: 1000px;
+}
+
+.main .parent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all .5s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.main:hover .parent {
+    transform: rotateY(180deg);
+}
+
+.main .parent .front,
+.main .parent .back {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color: #DDD;
+    backface-visibility: hidden;
+    text-align: center;
+}
+
+.main .parent .front h1,
+.main .parent .back h1 {
+    margin: 60px auto;
+}
+
+.main .parent .back {
+    transform: rotateY(180deg);
+}

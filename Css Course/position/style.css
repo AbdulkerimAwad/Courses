@@ -1,0 +1,55 @@
+body {
+    height: 3000px;
+    background: #DDD;
+}
+
+.parent {
+    width: 940px;
+    background: #FFF;
+    padding: 10px;
+    height: 600px;
+    position: relative;
+}
+
+.child {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    background: #EFEFEF;
+    
+}
+
+.abs {
+    background: #F00;
+    color: #FFF;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* 
+    position > def: static
+    لتحديد موقع العنصر بحرية كاملة
+*/
+
+/* 
+    position:
+    -fixed: top / right / bottom / left
+    يبقى العنصر في مكانه على الشاشة حتى عند الانتقال
+    -relative: يبقى العنصر ثابتا في مكانه
+    يبقى مكانه السابق محجوزا لا يمكن وضع عناصر مكانه
+    -absolute: شبيه بالفيكسيد لكنه يبحث عن الوضع المطلق ريلاتيف الى أن يجده في أحد العناصر
+
+*/
+
+/* 
+    يأخذ النسب المئوية
+*/
+
+/* 
+    fixed: يخرج من أي عنصر ويتوضع مكانه على الشاشة
+    absolute: يخرج من أي عنصر ويتوضع مكانه على الشاشة ولا يتحرك أبدأ / ولا يمكن ضبطه داخل العنر الأب إلا باستخدام ال
+    relative
+    الذي نضيفه لخاص العنصر الاب
+*/

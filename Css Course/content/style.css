@@ -1,0 +1,20 @@
+div:after {
+    content: "hello iam her from css";
+    color: #00F;
+    font-weight: bold;
+}
+
+div {
+    color: #F00;
+}
+
+
+
+/* 
+    :after{content} اضافة شيء بعد العنصر الذي قبل النطتين
+*/
+
+/* 
+    after > def: none
+*/
+

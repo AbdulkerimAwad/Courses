@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="posts">
+
+        <article>
+
+            <h2>the age Calculator</h2>
+
+            <div class="container">
+
+                <input type="number" id="Age" placeholder="Type Your Age Years">
+
+                <select id="select">
+                    <option value="12">Month</option>
+                    <option value="365">Day</option>
+                    <option value="8760">Hours</option>
+                </select>
+
+                <input type="button" value="Calculate" onclick="calc()">
+
+            </div>
+
+            <div id="AgeResulte"></div>
+        </article>
+
+<!-- ---------------------------------------------- -->
+
+        <article>
+
+            <h2>min or max value founder</h2>
+
+            <div class="container">
+
+                <input type="text" id="inputText" placeholder="like: 1, 2, 3, 4">
+            
+                <select id="selectValue">
+                    
+                    <option value="1">min</option>
+                    
+                    <option value="2">max</option>
+            
+                </select>
+                
+                <input type="button" value="finding" id="find">
+            
+            </div>
+
+            <div id="selectResult"></div>
+
+        </article>
+
+<!-- ---------------------------------------------- -->
+
+        <article>
+
+            <h2>random number</h2>
+            
+            <div class="container">
+            
+                <div id="res">get random number form 1 to 1000</div>
+
+                <input type="button" value="Get" onclick="set()">
+
+            </div>
+
+        </article>
+
+<!-- ---------------------------------------------- -->
+
+        <article>
+
+            <input type="text" id="result">
+
+            <div class="keyboard">
+                <input type="button" value="a" id="a" onclick="type()">
+                <input type="button" value="b">
+            </>
+
+        </article>
+
+    </section>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

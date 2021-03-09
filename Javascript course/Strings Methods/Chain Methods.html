@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js => String => Chain Methods</title>
+</head>
+<body>
+    <script>
+        var myNumber = 120000,
+            myString = myNumber.toString().replace(/0/g, 1).split("");
+        
+        console.log(myNumber);
+        console.log(myString);
+    </script>
+</body>
+</html>

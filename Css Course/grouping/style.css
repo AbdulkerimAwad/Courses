@@ -1,0 +1,16 @@
+h1,span,div {
+    color: #F00;
+    font-weight: bold;
+}
+
+div {
+    padding: 10px;
+    background: #FFF;
+    border: 1px solid #00F;
+}
+
+
+
+/* 
+    .class, .class, .class
+*/

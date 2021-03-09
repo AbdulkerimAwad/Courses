@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript => RegExp - Brackets</title>
+  </head>
+  <body>
+    <script>
+
+        /* 
+
+            Brackets Use
+            [...] Character
+            [^...] Not Character
+            [a-z] Range Small Letters
+            [A-Z] Range Capital Letters
+            [0-9] Range Numbers
+            [^0-9] Not Range
+            [A-g] = Range[A-Z] Range[a-g]
+            [0-9a-z] Double Range 
+
+        */
+
+        var string = "abcdefghijklmn 1234567890 ABCDEFGHIJKLMN";
+
+        console.log(string.replace(/[e]/gi, "@"));
+        console.log(string.replace(/[^e]/gi, "@"));
+        console.log(string.replace(/[a-z]/g, "@"));
+        console.log(string.replace(/[A-Z]/g, "@"));
+        console.log(string.replace(/[0-9]/g, "@"));
+        console.log(string.replace(/[^0-9]/g, "@"));
+        console.log(string.replace(/[A-g]/g, "@")); // A-Z + a-g
+        console.log(string.replace(/[0-9a-z]/g, "@"));
+
+    </script>
+  </body>
+</html>

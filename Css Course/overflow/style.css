@@ -1,0 +1,22 @@
+div {
+    background: #DDD;
+    overflow: hidden;
+}
+
+p {
+    float: left;
+}
+
+
+
+/* 
+    overflow > def: visible
+    -hidden: اخفاء النص الذي خرج من الديف
+    -scroll: يقوم بانشاء سكرول لرؤية باقي النص
+    -auto: عند تعدي النص لمساحة البوكس يظهر السكرول
+*/
+
+/* 
+    overflow
+    يستخدم مع الفلوت لمنع العناصر من الخروج من البوكس
+*/

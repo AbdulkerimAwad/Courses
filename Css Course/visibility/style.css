@@ -1,0 +1,24 @@
+div {
+    width: 250px;
+    background: #DDD;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+div.visible {
+    visibility: hidden;
+}
+
+
+
+/* 
+    visibility > def: visibil
+    -hideen: يستخدم في اخفاء العناصر
+*/
+
+/* 
+    الفرق بين الديس بلاي والفيزيبل
+    الديس بلاي يخفي العنصر ويصبح مكانه فارغا
+    الفيزيبل يخفي العنصر لكن يبقى مكانه محجوزا
+*/

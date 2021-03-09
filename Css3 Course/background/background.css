@@ -1,0 +1,73 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+/*
+
+background-size: 100% 100%
+لجعل الخلفية على حجم البوكس
+
+background-size: 100px 200px
+لتحديد حجم الخلفية يدويا
+
+background-size: cover
+يأخذ من الصورة جزء مناسب أو يمددها على حجم الوكس
+
+background-size: contain
+يقوم بتكرار الصورة في حال زاد حجم البوكس عن حجم الخلفية
+
+div {
+    width: 1000px;
+    height: 1000px;
+    background: url(wall.png);
+    background-size: contain;
+}
+
+img {
+    
+}
+*/
+
+
+/* 
+background-clip: border-box
+تغطي الخلفية العنصر ابتداء من الاطار
+
+background-clip: padding-box
+تغطي الخلفية العنصر ابتداء من الهامش الداخلي
+
+background-clip: content-box
+تغطي الخلفية العنصر ابتداء من المحتوى
+
+ */
+/* div {
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    background-color: #00F;
+    border: 10px dashed #F00;
+    outline: 10px dashed #080;
+    background-clip: content-box;
+} */
+
+
+/* background-origin:
+- border-box
+- padding-box
+- content-box
+
+هو نفس ال 
+background-clip
+لكن ليس على اللون بل على الخلفية اذا كانت صورة */
+
+/* div {
+    width: 400px;
+    height: 200px;
+    color: #FFF;
+    padding: 50px;
+    background: url(wall.png);
+    border: 10px dashed #00F;
+    background-origin: padding-box;
+} */

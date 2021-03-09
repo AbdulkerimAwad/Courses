@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js => Split A String</title>
+</head>
+<body>
+    <script>
+        /*
+            split     : splite(separator, limit)
+            slice     : slice(start[Req], end)
+            substr    : substr(start[Req], length)
+            substring : substring(start[Req], end)
+        */
+
+        // split
+        var myMainString = "I Love JavaScrpt And Json",
+            mySplitedString = myMainString.split(" ", 2);
+
+        console.log(mySplitedString);
+        console.log(typeof(mySplitedString));
+
+        // slice
+        var mySlicedString = myMainString.slice(2, 6);
+
+        console.log(mySlicedString);
+        console.log(typeof(mySlicedString));
+
+        // substr
+        var mySubStr = myMainString.substr(2, 4);
+
+        console.log(mySubStr);
+        console.log(typeof(mySubStr));
+
+        // substring
+        var mySubString = myMainString.substring(2, 6);
+
+        console.log(mySubString);
+        console.log(typeof(mySubString));
+    </script>
+</body>
+</html>

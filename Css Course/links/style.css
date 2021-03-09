@@ -1,0 +1,21 @@
+a:hover {
+    color: #F00;
+    font-weight: bold;
+    text-decoration: line-through
+}
+
+a:active {
+    color: #080;
+    text-decoration: none;
+}
+
+
+/* 
+    hover
+    تغيير تنسيق العنصر عند وضع المؤشر عليه
+*/
+
+/* 
+    active
+    تغيير تنسيق عنصر معين عند الضغط باستمرار عليه
+*/
